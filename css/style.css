@@ -11,25 +11,22 @@ h1{
 .nav {
   margin: 0 0 0 auto;
   overflow: hidden;
-  display: inline-block;
-  flex-direction: row;
 }
 
 .nav .navigation {
-  list-style-type: none;
-  width: 80px;
-  text-align: center;
-  float: left;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .nav .navigation li {
   width: 100px;
-  list-style: none;
-  text-align: center;
-  float: left;
+  
 }
 
 .nav .navigation li a {
-    text-decoration: none;
-    color: #000055;
+  text-decoration: none;
+  color: #000055;
+  font-weight: bold;
 }
