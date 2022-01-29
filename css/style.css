@@ -1,6 +1,7 @@
 
 .header{
   display: flex;
+  
 }
 
 h1{
@@ -9,6 +10,7 @@ h1{
 }
 
 .nav {
+  justify-content: space-between;
   margin: 0 0 0 auto;
   overflow: hidden;
 }
@@ -29,4 +31,26 @@ h1{
   text-decoration: none;
   color: #000055;
   font-weight: bold;
+}
+
+.main {
+    display: flex;
+    position: relative;
+}
+
+.language {
+    border-bottom: 85px solid #005;
+    position: absolute;
+}
+
+.picture {
+    margin: 0 0 0 auto;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+}
+
+
+.pictures{
+  margin-left: auto;
 }
